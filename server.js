@@ -1,7 +1,6 @@
 const express = require("express");
 const products = require('./routers/products')
 const cart = require('./routers/carrito')     
-
 const app = express();
 
 app.use(express.json());

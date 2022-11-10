@@ -1,0 +1,74 @@
+[{
+  "make": "Dodge",
+  "model": "RAM",
+  "price": 2000,
+  "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_997702-MLA48793893569_012022-W.jpg",
+  "description": "truck",
+  "code": "ACC",
+  "stock": 100
+},{
+  "make": "Ford",
+  "model": "Mustang",
+  "price": 5000,
+  "thumbnail": "https://cdn.motor1.com/images/mgl/qj8lq/s1/nuova-ford-mustang-shelby-gt500.jpg",
+  "description": "sport",
+  "code": "AAA",
+  "stock": 0
+},{
+  "make": "Chevrolet",
+  "model": "Camaro",
+  "price": 4500,
+  "thumbnail": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.motor1.com%2Fimages%2Fmgl%2FpmxgW%2Fs1%2Fchevrolet-camaro-coupe.jpg&f=1&nofb=1&ipt=6144b305d232e0b5e90c5e92de1189a3a8ab553b2d29d4462852330f8d605983&ipo=images",
+  "description": "sport",
+  "code": "AAA",
+  "stock": 0
+},{
+  "make": "Toyota",
+  "model": "Corolla Cross",
+  "price": 2500,
+  "thumbnail": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.carbuzz.com%2Fgallery-images%2F2022-toyota-corolla-cross-forward-vision-carbuzz-854191-1600.jpg&f=1&nofb=1&ipt=dab812b370cd2f07b32537bb5f9aefeee9c105f751f2d7e17ea78e11a7c69b6d&ipo=images",
+  "description": "SUV",
+  "code": "ABB",
+  "stock": 100
+},{
+  "make": "Ford",
+  "model": "Puma",
+  "price": 4300,
+  "thumbnail": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.lifequestalliance.com%2Fwp-content%2Fuploads%2F2020%2F11%2F2022-Ford-Puma-awd-automatic-america-advert-.jpg&f=1&nofb=1&ipt=9678c4029722969c951c65c57344e24ca17751043fe0d9c876fa51117730b300&ipo",
+  "description": "SUV",
+  "code": "ABB",
+  "stock": 0
+},{
+  "make": "Jeep",
+  "model": "Cherokee",
+  "price": 4900,
+  "thumbnail": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.autoo.com.br%2Ffotos%2F2018%2F1%2F1280_960%2Fjeep_cherokee_2019_1_17012018_8488_1280_960.jpg&f=1&nofb=1&ipt=81814ff77c3d0abf59f269f5b0e8e139f0dcb0cfc809f9115e7f6f53e01f1093&ipo=images",
+  "description": "suv",
+  "code": "ABB",
+  "stock": 0
+},{
+  "make": "Ford",
+  "model": "Bronco",
+  "price": 3750,
+  "thumbnail": "https://s.aolcdn.com/commerce/autodata/images/USD10FOS401D021001.jpg",
+  "description": "SUV",
+  "code": "ABB",
+  "stock": 100
+},{
+  "make": "Jeep",
+  "model": "Wrangler",
+  "price": 4650,
+  "thumbnail": "https://www.chicagomotorcars.com/imagetag/6017/4/l/Used-2018-Jeep-Wrangler-Unlimited-Rubicon-JL-Upgrades-LOADED-wOPTIONS.jpg",
+  "description": "suv",
+  "code": "ABB",
+  "stock": 0
+},{
+  "make": "Ford",
+  "model": "Ranger",
+  "price": 3850,
+  "thumbnail": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimg-ik.cars.co.za%2Fimages%2F2021%2F2%2FFordFX4%2Ftr%3An-news_1200x%2FDSC_1514a_1800x1800.jpg&f=1&nofb=1&ipt=e53d77108152d430dcfdcc5c3bcb40f17d0a6ebc7e74a52ffb0f769f0494bb2e&ipo=images",
+  "description": "truck",
+  "code": "CBB",
+  "stock": 100
+}
+]

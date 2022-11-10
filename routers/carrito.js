@@ -46,15 +46,15 @@ cartRouter.get("/:id/productos", async (req, res) => {
   } catch (error) {
     res.send([]);
   }
-});
+}); 
 
 cartRouter.post("/:id/productos", async (req, res) => {
-  const { id } = req.params;  
-  console.log(id);
-  console.log(req.query.producto);
-  const prod = await products.getProductbyId(req.query.producto)
-  const cart = await carts.getCarritobyId(id);
-  res.status(201).send(`producto ${prod} agregado al carrito ${cart}`)
+  const { id } = req.params;   
+  const idProducto = req.query.producto
+  await carts.addProductToCarrito(id, idProducto)
+  const prod = await products.getProductbyId(idProducto)
+  const cart = await carts.getCarritobyId(id);      
+  res.status(201).send(`producto ${prod.model} agregado al carrito ${cart._id}`)
 }); 
 
 cartRouter.delete("/:id/productos/:id_prod", async (req, res) => {

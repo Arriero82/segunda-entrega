@@ -10,13 +10,11 @@ class Server {
     async connectDB() {
         await dbConnection()
     }
-
-
 }
 
 async function dbConnection() {
     try {
-        const URL = "mongodb://localhost:27017/ecommerce";
+        const URL = "mongodb+srv://gabo:1234@cluster0.zbqcivt.mongodb.net/ecommerce?retryWrites=true&w=majority";
         mongoose.connect(URL, { useNewUrlParser: true, useUnifiedTopology: true });
         console.log('database connected');
       } catch (error) {
